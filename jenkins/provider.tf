@@ -1,7 +1,7 @@
 # Configure the AWS Provider
 provider "aws" {
   region = "eu-west-2"
-  profile = "dev"
+  profile = "kub"
 }
 locals {
   name = "sophie"
